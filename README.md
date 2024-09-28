@@ -7,7 +7,6 @@ Este projeto é uma aplicação CRUD (Create, Read, Update, Delete) desenvolvida
 - **ASP.NET MVC**: Framework para desenvolvimento web usando o padrão Model-View-Controller.
 - **Entity Framework Core**: ORM utilizado para gerenciar o acesso ao banco de dados SQL.
 - **Bootstrap**: Utilizado para estilização da interface.
-- **Materialize CSS**: Para melhorar a experiência visual da aplicação.
 - **SQL Server**: Banco de dados utilizado para armazenar as informações dos clientes.
 
 ## Funcionalidades
@@ -31,7 +30,7 @@ Siga as etapas abaixo para configurar e rodar o projeto no seu ambiente local.
 
 No terminal, execute:
 
-git clone https://github.com/seu-usuario/crud_clientes.git
+git clone https://github.com/PascoaI/crud_clientes.git
 
 ### 2. Abra o Projeto no Visual Studio
 Navegue até a pasta do projeto clonado e abra o arquivo .sln no Visual Studio.
@@ -54,7 +53,7 @@ Isso criará a estrutura do banco de dados necessária para a aplicação.
 Na IDE, vá até o terminal e digite *dotnet run* para executar a aplicação, e acesse o localhost no seu navegador.
 
 ## Estrutura do Projeto
-**Models**: Contém as classes que representam o modelo de dados, como Cliente.
-**Controllers**: Contém os controladores que lidam com as requisições HTTP e manipulam os dados.
-**Views**: Contém as páginas da interface que renderizam o HTML para o navegador.
-**Migrations**: Diretório que contém as migrações do banco de dados geradas pelo Entity Framework.
+- **Models**: Contém as classes que representam o modelo de dados, como Cliente.
+- **Controllers**: Contém os controladores que lidam com as requisições HTTP e manipulam os dados.
+- **Views**: Contém as páginas da interface que renderizam o HTML para o navegador.
+- **Migrations**: Diretório que contém as migrações do banco de dados geradas pelo Entity Framework.
