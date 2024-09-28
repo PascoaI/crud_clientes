@@ -36,8 +36,10 @@ git clone https://github.com/PascoaI/crud_clientes.git
 Navegue até a pasta do projeto clonado e abra o arquivo .sln no Visual Studio.
 
 ### 3. Configurar a Conexão com o Banco de Dados
-No arquivo appsettings.json, você deve configurar a string de conexão do banco de dados. Por exemplo:
- 
+No arquivo appsettings.json, você deve configurar a string de conexão do banco de dados para utilizar o SQL Server local. Certifique-se de que o SQL Server está instalado e rodando em sua máquina.
+
+Aqui está um exemplo de configuração para um ambiente localhost:
+
  *"ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Database=CrudClientesDB;Trusted_Connection=True;MultipleActiveResultSets=true"
 }*
