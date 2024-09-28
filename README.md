@@ -52,7 +52,7 @@ Execute o comando abaixo no Package Manager Console ou no terminal do VS/VSCode 
 Isso criará a estrutura do banco de dados necessária para a aplicação.
 
 ### 5. Rodar a Aplicação
-Na IDE, vá até o terminal e digite *dotnet run* para executar a aplicação, e acesse o localhost no seu navegador.
+Na IDE, vá até o terminal, na pasta do projeto, e digite *dotnet run* para executar a aplicação, e acesse o localhost no seu navegador.
 
 ## Estrutura do Projeto
 - **Models**: Contém as classes que representam o modelo de dados, como Cliente.
