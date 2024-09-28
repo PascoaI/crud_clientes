@@ -1,0 +1,30 @@
+﻿@model ClienteCRUD.Models.Cliente
+@{
+    ViewBag.Title = "Excluir registro";
+}
+<div class="container mt-4">
+    <h2>Deletar Cliente</h2>
+
+    <div class="alert alert-danger mt-3">
+        <h4 class="alert-heading">Tem certeza de que deseja deletar este cliente?</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">Nome</dt>
+            <dd class="col-sm-10">@Model.CLI_NOME</dd>
+
+            <dt class="col-sm-2">Data de Nascimento</dt>
+            <dd class="col-sm-10">@Model.CLI_DATANASCIMENTO.ToString("dd/MM/yyyy")</dd>
+
+            <dt class="col-sm-2">Ativo</dt>
+            <dd class="col-sm-10">@((Model.CLI_ATIVO) ? "Sim" : "Não")</dd>
+        </dl>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="CLI_ID" />
+            <input type="submit" value="Deletar" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Cancelar
+            </a>
+        </form>
+        </div>
+</div>
